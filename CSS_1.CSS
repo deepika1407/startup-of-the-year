@@ -1,0 +1,20 @@
+/*Selector{
+property: value;
+}*/
+body{background-image: url(background_image.jpg);
+ background-size: cover;
+ cursor: pointer;
+ }
+ .images {display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+ }
+
+ img{
+ 	margin: 5px;
+ 	transition: all 1s;
+ 	 }
+img:hover{
+   transform: scale(1.1);
+
+}
